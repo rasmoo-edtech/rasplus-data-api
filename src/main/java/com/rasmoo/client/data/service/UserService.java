@@ -12,4 +12,6 @@ public interface UserService {
     User uploadPhoto(Long id, MultipartFile file) throws IOException;
 
     byte[] downloadPhoto(Long id);
+
+    User findById(Long id);
 }

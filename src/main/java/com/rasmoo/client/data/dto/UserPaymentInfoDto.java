@@ -35,7 +35,6 @@ public record UserPaymentInfoDto(
 
 ) {
     public UserPaymentInfoDto {
-        // Define valor padrão se null
         if (dtPayment == null) {
             dtPayment = LocalDate.now();
         }
